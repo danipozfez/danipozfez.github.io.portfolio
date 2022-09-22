@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="css/estilos.css">
+
 </head>
 
 <body>
@@ -23,9 +25,17 @@
 
         <!-- Ponemos título a la barra de navegación -->
 
-        <a class="navbar-brand" href="#">Juna101</a>
+        <a class="navbar-brand" href="#">
+
+            <img src="img/avic.png"
+                class="d-inline-block aling-top rounded-circle" hight="30" width="30" />
+                Daniel Pozo Fernández
+
+        </a>
 
         <!-- botón para desplegar el menú en modo responsivo -->
+
+
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#entradas_menu">
 
@@ -43,41 +53,41 @@
 
         <div class="collapse navbar-collapse" id="entradas_menu">
 
-            <ul class="navbar-van">
+            <ul class="navbar-nav">
 
                 <li clas="nav-item">
-                    
-                    <a class="nav-link" href="#" id= "menu_inicio">Inicio</a>
+
+                    <a class="nav-link" href="#" id="menu_inicio">Inicio</a>
 
                 </li>
 
                 <li clas="nav-item">
-                    
-                    <a class="nav-link" href="#" id= "menu_desarrollo_web">desarrollo web</a>
+
+                    <a class="nav-link" href="#" id="menu_desarrollo_web">Desarrollo web</a>
 
                 </li>
 
                 <li clas="nav-item">
-                    
-                    <a class="nav-link" href="#" id= "menu_desarrollo_java">desarrollo java</a>
+
+                    <a class="nav-link" href="#" id="menu_desarrollo_java">Desarrollo java</a>
 
                 </li>
 
                 <li clas="nav-item">
-                    
-                    <a class="nav-link" href="#" id= "menu_base_de_datos">base de datos</a>
+
+                    <a class="nav-link" href="#" id="menu_base_de_datos">Bases de datos</a>
 
                 </li>
 
                 <li clas="nav-item">
-                    
-                    <a class="nav-link" href="#" id= "menu_contacto">contacto</a>
+
+                    <a class="nav-link" href="#" id="menu_contacto">Contacto</a>
 
                 </li>
 
 
 
-            </ul>              
+            </ul>
         </div>
 
     </nav>
@@ -86,33 +96,195 @@
 
         <div id="panel_inicio" class="panel">
 
-            <p>Inicio</p>
+            <h3>Desarrollador Freelance</h3>
 
+            <div class="row">
+
+                <div class="col-sm-4">
+
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="img/html5.png" alt="Desarrollo Web">
+
+                        <div class="card-body">
+                        <h5 class="card-title">Desarrollo Web</h5>
+                        <p class="card-text">
+                        <ul>
+                            <li>HTML5</li>
+                            <li>JavaScript Vanilla</li>
+                            <li>CCS3</li>
+                            <li>WebApps</li>
+
+                        </ul>
+                        </p>
+                        <a href="https://github.com/danipozfez/danipozfez.github.io" class="btn btn-primary">Ejemplo
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            <div class="col-sm-4">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/pro.jpg" alt="Programación">
+
+                <div class="card-body">
+                    <h5 class="card-title">Programación</h5>
+                    <p class="card-text">
+                    <ol>
+                        <li>
+
+                            1. Lenguajes de programación
+                            <ol type="a">
+                                <li>JavaScript</li>
+                                <li>Java</li>
+                                <li>Python</li>
+                                <li>Bash</li>
+                                <li>PowerShell</li>
+                                <li>C Arduino</li>
+                            </ol>
+                            2. Programación lado Cliente
+                            <ol type="a">
+                                <li>React</li>
+                                <li>Angular</li>
+                                <li>Android</li>
+                            </ol>
+                            3. Programación lado servidor
+                            <ol type="a">
+                                <li>NodeJS</li>
+                                <li>Spring Java</li>
+                            </ol>
+
+                        </li>
+
+
+                    </ol>
+                    </p>
+                    <a href="https://github.com/danipozfez/danipozfez.github.io" class="btn btn-primary">Ejemplo
+                        </a>
+                </div>
+            </div>
         </div>
 
-        <div id="panel_desarrollo_web" class="panel">
+        <div class="col-sm-4">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/bases.jpg" alt="Bases de datos">
 
-            <p>Desarrollo Web</p>
+                <div class="card-body">
+                    <h5 class="card-title">Bases de datos</h5>
+                    <p class="card-text">
 
+                    <ol TYPE="a">
+                        <li>
+
+                            SQL
+                            <ol>
+                                <li>Oracle</li>
+                                <li>MySQL</li>
+                               
+                            </ol>
+                        </li>
+
+                        <li>
+
+                           NoSQL
+                            <ol>
+                                <li>Redis</li>
+                                <li>Mongo DB</li>
+                                <li>Firebase</li>
+                            </ol>
+
+
+                        </li>
+
+
+                    </ol>
+
+
+                    </p>
+                    <a href="https://github.com/danipozfez/danipozfez.github.io" class="btn btn-primary">Ejemplo
+                        </a>
+                </div>
+            </div>
         </div>
+    </div>
 
-        <div id="panel_desarrollo_java" class="panel">
+    </div>
 
-            <p>Programas Java</p>
+    <div id="panel_desarrollo_web" class="panel">
 
-        </div>
+        <p>Desarrollo Web</p>
+        
+        <ul>
+            <li>HTML5</li>
+            <li>JavaScript Vanilla</li>
+            <li>CCS3</li>
+            <li>WebApps</li>
 
-        <div id="panel_base_de_datos" class="panel">
+        </ul>
 
-            <p>Bases de Datos</p>
+    </div>
 
-        </div>
+    <div id="panel_desarrollo_java" class="panel">
 
-        <div id="panel_contacto" class="panel">
+        <p>Programas Java</p>
+        <li>
 
-            <p>contacto</p>
+            1. Lenguajes de programación
+            <ol type="a">
+                <li>JavaScript</li>
+                <li>Java</li>
+                <li>Python</li>
+                <li>Bash</li>
+                <li>PowerShell</li>
+                <li>C Arduino</li>
+            </ol>
+            2. Programación lado Cliente
+            <ol type="a">
+                <li>React</li>
+                <li>Angular</li>
+                <li>Android</li>
+            </ol>
+            3. Programación lado servidor
+            <ol type="a">
+                <li>NodeJS</li>
+                <li>Spring Java</li>
+            </ol>
 
-        </div>
+        </li>
+
+    </div>
+
+    <div id="panel_base_de_datos" class="panel">
+
+        <p>Bases de Datos</p>
+        <li>
+
+            SQL
+            <ol>
+                <li>Oracle</li>
+                <li>MySQL</li>
+               
+            </ol>
+        </li>
+
+        <li>
+
+           NoSQL
+            <ol>
+                <li>Redis</li>
+                <li>Mongo DB</li>
+                <li>Firebase</li>
+            </ol>
+
+
+        </li>
+
+    </div>
+
+    <div id="panel_contacto" class="panel">
+
+        <p>contacto:</p>
+        <p>danipozfez@gmail.com</p>
+
+    </div>
 
     </div>
 
